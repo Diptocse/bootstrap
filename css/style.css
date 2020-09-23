@@ -1,0 +1,130 @@
+/*----------Global Css------------*/
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+#service .card:hover{
+    background-color: #007bff!important;
+}
+.top-auto{
+    top: auto;
+}
+.left-auto{
+    left: auto;
+}
+.bg-black{
+    background-color: #000!important;
+}
+.btn-black{
+    color: #fff;
+    background-color: #011;
+    border-color: #011;
+}
+.btn-black:hover{
+    color: #fff;
+    background-color: #000;
+}
+button, .btn,input,textarea{
+    box-shadow: none!important;
+}
+.border-dotted{
+    border-top-style: dotted;
+    color: rgba(255, 255, 255, 0.3);
+}
+.bg-transparent-black{
+    background-color: #00000045;
+}
+.bg-no-repeat{
+background-repeat: no-repeat;
+}
+.bg-size-cover{
+    background-size: cover;
+}
+.bg-attachment-fixed{
+    background-attachment: fixed;
+}
+.bg-position-center{
+    background-position: center;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff!important;
+}
+#main-nav .active{
+    background-color: #10104a;
+    color: black;
+}
+.card-image-overlay-hover{
+    visibility: hidden;
+}
+.card:hover .card-image-overlay-hover{
+    visibility: visible;
+}
+/*----------Theme Css------------*/
+.card-image-text{
+    bottom: 260px;
+}
+.card-image-text-2{
+    bottom: 315px;
+}
+.bg-transparent-purple{
+    background-color: rgba(242, 17, 242, 0.6);
+}
+.card-img-overlay-hover{
+    opacity: 0;
+}
+ #price .col-md-3:hover .card-img-overlay-hover{
+    opacity: 1;
+}
+.transition-1{
+    transition: all 1s;
+}
+.z-index-1{
+    z-index: 1;
+}
+.border-4{
+    border: 4px solid;
+}
+.work-hover:hover p{
+    color: #fff !important;
+}
+#arrow .btn{
+    height: 35px;
+    width: 35px;
+}
+.lg-btn{
+    height: 90px;
+    width: 90px;
+}
+.md-btn{
+   height: 65px;
+   width: 65px; 
+}
+#social-link .btn{
+    height: 50px;
+    width: 50px;
+}
+#price .add-to-cart{
+     display: none;
+     opacity: .2s;
+ }
+ #price .col-md-3:hover .btn-cart{
+     background-color: #c82333;
+     border-color: #bd2130;
+     color: white; 
+     transition: all 1s;
+ }
+ #price .col-md-3:hover .add-to-cart{
+     display: block;
+     opacity: 1;
+ }
+ #price .col-md-3:hover .cart-item-name{
+     display: none; 
+ }
+/*----------Media Queries------------*/
+
+
+
+            
